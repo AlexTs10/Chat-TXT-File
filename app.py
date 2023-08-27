@@ -12,7 +12,6 @@ import os
 import chainlit as cl
 
 openai.api_key = os.environ["OPENAI_API_KEY"]
-#os.environ["OPENAI_API_KEY"] = "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"
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 
